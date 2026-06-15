@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-slate-900 text-slate-100 min-h-screen antialiased selection:bg-purple-500 selection:text-white overflow-x-hidden;
+  }
+}
+
+/* Glassmorphism utility variables */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
